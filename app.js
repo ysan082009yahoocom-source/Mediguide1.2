@@ -118,17 +118,29 @@ import appData from './data.js';
       }).join("") +
       "</ul>" +
       "</aside>" +
-    '<section class="guide-section">' +
-"<h3>" + labels.firstAidTitle + "</h3>" +
-'<ol class="list list-steps">' +
-emergency.steps.map(function (item) {
-  return '<li class="step-item-container" style="margin-bottom: 20px;">' + 
-            '<p class="step-text" style="margin-bottom: 8px;">' + escapeHtml(item.text) + '</p>' +
-            '<img src="' + item.image + '" alt="First Aid Step Illustration" style="width: 100%; max-width: 340px; display: block; border-radius: 6px; border: 1px solid #e2e8f0; height: auto;">' +
-         '</li>';
-}).join("") +
-'</ol>' +
-'</section>'
+   '<section class="guide-section">' +
+      "<h3>" + labels.firstAidTitle + "</h3>" +
+      '<ol class="list list-steps">' +
+      emergency.steps.map(function (item) {
+        // 1. Check if the item is an object or a plain text string
+        const isObject = (typeof item === 'object' && item !== null);
+        const textValue = isObject ? item.text : item;
+        const imgUrl = isObject ? item.image : '';
+        
+        // 2. Start building the list item with text
+        let output = '<li class="step-item-container" style="margin-bottom: 20px;">' + 
+                     '<p class="step-text" style="margin-bottom: 8px;">' + escapeHtml(textValue) + '</p>';
+        
+        // 3. ONLY add the <img> tag if an image path is provided
+        if (imgUrl && imgUrl.trim() !== '') {
+          output += '<img src="' + imgUrl + '" alt="First Aid Step Illustration" style="width: 100%; max-width: 340px; display: block; border-radius: 6px; border: 1px solid #e2e8f0; height: auto;">';
+        }
+        
+        output += '</li>';
+        return output;
+      }).join("") +
+      "</ol>" +
+      "</section>" +
       '<section class="guide-section">' +
       "<h3>" + labels.firstAidTitle + "</h3>" +
       '<ol class="list list-steps">' +
