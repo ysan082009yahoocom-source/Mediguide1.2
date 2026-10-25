@@ -434,12 +434,26 @@ symptoms: [
 "Slow, shallow breathing"
 ],
 steps: [
-"Move the person out of the cold and remove wet clothing.",
-"Wrap them in blankets, focusing on the head and torso first.",
-"Give warm, sweet, non-alcoholic drinks if they are alert and can swallow.",
-"Apply warm (not hot) packs to the chest, neck, and groin.",
-"Handle the person gently to avoid triggering heart rhythm problems.",
-"Monitor breathing and start CPR if they become unresponsive and are not breathing normally."
+ {
+          text:  "Move the person out of the cold and remove wet clothing.",
+          image: "hypothermia.webp"
+        },
+         {
+          text: "Wrap them in blankets, focusing on the head and torso first.",
+          image: "hypothermia1.webp"
+        },
+        {
+          text: "Give warm, sweet, non-alcoholic drinks if they are alert and can swallow.",
+          image: "hypothermia2.webp"
+        },
+        {
+          text: "Apply warm (not hot) packs to the chest, neck, and groin.",
+          image: "hypothermia3.webp"
+        },
+        {
+          text: "Handle the person gently to avoid triggering heart rhythm problems. breathing and start CPR if they become unresponsive and are not breathing normally.",
+          image: "hypothermia4.webp"
+        },
 ],
 medKit: ["Emergency blanket", "Warm blankets / sleeping bag", "Warm packs", "Warm non-alcoholic drink", "Dry clothing", "Thermometer"],
 precautions: [
