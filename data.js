@@ -123,12 +123,22 @@ const appData = {
         "Panic or loss of consciousness"
       ],
       steps: [
-        "Ask: “Are you choking?” If they can cough or speak, encourage coughing.",
-        "If they cannot cough or breathe, lean them forward and give up to 5 sharp back blows between the shoulder blades.",
-        "If unsuccessful, stand behind them and give up to 5 abdominal thrusts (Heimlich maneuver).",
-        "Alternate 5 back blows and 5 abdominal thrusts until the object is expelled.",
-        "If the person becomes unresponsive, start CPR and call emergency services.",
-        "After the object is expelled, keep the person still and seek medical evaluation."
+        {
+          text:  "Ask: “Are you choking?” If they can cough or speak, encourage coughing.",
+          image: "Choking.webp"
+        },
+         {
+          text: "If they cannot cough or breathe, lean them forward and give up to 5 sharp back blows between the shoulder blades.",
+          image: "Choking1.webp"
+        },
+        {
+          text: "If unsuccessful, stand behind them and give up to 5 abdominal thrusts (Heimlich maneuver). Alternate 5 back blows and 5 abdominal thrusts until the object is expelled.",
+          image: "Choking2.webp"
+        },
+        {
+          text: "If the person becomes unresponsive, start CPR and call emergency services. After the object is expelled, keep the person still and seek medical evaluation.",
+          image: "Choking4.webp"
+        },
       ],
       medKit: ["CPR face shield", "Gloves", "Phone to call emergency services"],
       precautions: [
