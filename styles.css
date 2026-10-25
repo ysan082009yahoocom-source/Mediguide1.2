@@ -194,6 +194,27 @@ body {
 }
 
 /* ---------- Content ---------- */
+
+/* Arrange your card layout */
+.medical-card {
+  border: 1px solid #ddd;
+  padding: 16px;
+  margin: 12px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.med-image {
+  width: 100%;
+  max-width: 200px;  /* Keeps image sizes uniform */
+  height: 150px;     /* Keeps standard height */
+  object-fit: cover; /* Prevents squishing or stretching */
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
 .content {
     max-width: 960px;
     margin: 1.5rem auto 3rem;
