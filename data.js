@@ -597,12 +597,28 @@ symptoms: [
 "Pale, cool, clammy skin"
 ],
 steps: [
-"Rest and position: Have the person sit upright or slightly recline in a cool, quiet, well-ventilated area with fresh air. Avoid sudden movements.",
-"Provide fresh air: Open a window or use a fan to cool them down. Apply a cool, damp cloth to the back of their neck.",
-"Encourage slow hydration: Offer tiny, frequent sips of clear water, electrolyte solutions, or diluted juices once the initial wave passes. Do not let them gulp large amounts.",
-"Try natural remedies: Offer ginger or peppermint tea if available, or try wrist acupressure (pressing the P6 point on the inner wrist).",
-"Introduce bland foods slowly: If they can tolerate liquids and feel hungry, offer small amounts of plain, bland foods like the BRAT diet (bananas, rice, applesauce, toast) or plain crackers.",
-"Avoid fatty, spicy, or strong-smelling foods."
+ {
+          text:  "Rest and position: Have the person sit upright or slightly recline in a cool, quiet, well-ventilated area with fresh air. Avoid sudden movements.",
+          image: "Choking.webp"
+        },
+         {
+          text: "If they cannot cough or breathe, lean them forward and give up to 5 sharp back blows between the shoulder blades.",
+          image: "Choking1.webp"
+        },
+        {
+          text: "If unsuccessful, stand behind them and give up to 5 abdominal thrusts (Heimlich maneuver).",
+          image: "Choking2.webp"
+        },
+        {
+          text: "Alternate 5 back blows and 5 abdominal thrusts until the object is expelled."
+        },
+        {
+          text: "If the person becomes unresponsive, start CPR and call emergency services.",
+          image: "Choking4.webp"
+        },
+        {
+          text: "After the object is expelled, keep the person still and seek medical evaluation."
+        },
 ],
 medKit: ["Water or oral rehydration solution", "Crackers / bland snacks", "Ginger or peppermint tea", "Cool cloth", "Vomit bag or bowl"],
 precautions: [
