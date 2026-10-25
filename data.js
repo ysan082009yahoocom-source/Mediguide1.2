@@ -554,13 +554,26 @@ symptoms: [
 "Confusion, anxiety, or unresponsiveness"
 ],
 steps: [
-"Call emergency services.",
-"Lay the person flat on their back.",
-"Raise their legs about 30 cm (12 inches) if no head, neck, spine, or leg injury is suspected.",
-"Keep them warm with a blanket or emergency blanket.",
-"Loosen tight clothing around the neck, chest, and waist.",
-"Monitor breathing and responsiveness; start CPR if they stop breathing normally.",
-"Do not give food or drink."
+        {
+          text:  "Call emergency services. Lay the person flat on their back.",          
+          image: "shock.webp"
+        },
+         {
+          text: "Raise their legs about 30 cm (12 inches) if no head, neck, spine, or leg injury is suspected.",
+          image: "shock1.webp"
+        },
+        {
+          text: "Keep them warm with a blanket or emergency blanket.",
+          image: "shock2.webp"
+        },
+        {
+          text: "Loosen tight clothing around the neck, chest, and waist.",
+          image: "shock3.webp"
+        },
+        {
+          text: "Monitor breathing and responsiveness; start CPR if they stop breathing normally. Do not give food or drink.",
+          image: "shock4.webp"
+        },
 ],
 medKit: ["Emergency blanket", "Gloves", "CPR face shield", "Phone to call emergency services"],
 precautions: [
