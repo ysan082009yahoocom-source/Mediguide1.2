@@ -66,27 +66,27 @@ const appData = {
       steps: [
          {
           text: "Move the person away from the source of the burn.",
-          image: "images/burn.webp"
+          image: "burn.webp"
         },
  {
           text: "Cool the burn under cool (not cold) running water for 10–20 minutes.",
-          image: "images/burn1.webp"
+          image: "burn1.webp"
         },
          {
           text: "Remove rings, watches, or tight clothing near the burn before swelling starts.",
-          image: "images/burn2.webp"
+          image: "burn2.webp"
         },
          {
           text: "Cover the burn loosely with a sterile non-stick dressing or clean cling film.",
-          image: "images/burn3.webp"
+          image: "burn3.webp"
         },
          {
           text: "Protect the person from cold and monitor for shock.",
-          image: "images/burn4.webp"
+          image: "burn4.webp"
         },
          {
           text: "Do not break blisters — leave them intact to reduce infection risk.",
-          image: "images/burn5.webp"
+          image: "burn5.webp"
         },
       ],
       medKit: ["Burn gel / hydrogel dressing", "Sterile non-stick dressings", "Cling film", "Cool running water", "Disposable gloves", "Emergency blanket"],
