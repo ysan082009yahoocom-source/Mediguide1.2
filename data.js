@@ -64,12 +64,30 @@ const appData = {
         "Difficulty breathing if smoke was inhaled"
       ],
       steps: [
-        "Move the person away from the source of the burn.",
-        "Cool the burn under cool (not cold) running water for 10–20 minutes.",
-        "Remove rings, watches, or tight clothing near the burn before swelling starts.",
-        "Cover the burn loosely with a sterile non-stick dressing or clean cling film.",
-        "Protect the person from cold and monitor for shock.",
-        "Do not break blisters — leave them intact to reduce infection risk."
+         {
+          text: "Move the person away from the source of the burn.",
+          image: "images/burn.webp"
+        },
+ {
+          text: "Cool the burn under cool (not cold) running water for 10–20 minutes.",
+          image: "images/burn1.webp"
+        },
+         {
+          text: "Remove rings, watches, or tight clothing near the burn before swelling starts.",
+          image: "images/burn2.webp"
+        },
+         {
+          text: "Cover the burn loosely with a sterile non-stick dressing or clean cling film.",
+          image: "images/burn3.webp"
+        },
+         {
+          text: "Protect the person from cold and monitor for shock.",
+          image: "images/burn4.webp"
+        },
+         {
+          text: "Do not break blisters — leave them intact to reduce infection risk.",
+          image: "images/burn5.webp"
+        },
       ],
       medKit: ["Burn gel / hydrogel dressing", "Sterile non-stick dressings", "Cling film", "Cool running water", "Disposable gloves", "Emergency blanket"],
       precautions: [
