@@ -1,0 +1,24 @@
+{
+  "name": "MediGuide",
+  "short_name": "MG First Aid",
+  "description": "An offline-ready first aid and med kit reference guide organized by emergency type.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any", 
+  "background_color": "#f1f5f9",
+  "theme_color": "#dc2626",
+"icons": [
+  {
+    "src": "icon.svg",
+    "sizes": "any",
+    "type": "image/svg+xml"
+  },
+  {
+    "src": "icon-maskable.svg",
+    "sizes": "any",
+    "type": "image/svg+xml",
+    "purpose": "maskable"
+  }
+]
+}
