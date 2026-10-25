@@ -161,14 +161,28 @@ const appData = {
         "No pulse or signs of circulation"
       ],
       steps: [
-        "Check the scene for safety, then tap and shout to check responsiveness.",
-        "Call emergency services and get an AED if available.",
-        "Place the heel of one hand on the center of the chest; place the other hand on top and interlock fingers.",
-        "Push hard and fast — at least 5 cm (2 inches) deep at 100–120 compressions per minute.",
-        "Allow the chest to fully recoil between compressions.",
-        "If trained, give 2 rescue breaths after every 30 compressions; otherwise continue hands-only CPR.",
-        "Use an AED as soon as it arrives and follow its voice prompts.",
-        "Continue until emergency help arrives or the person starts breathing normally."
+       {
+          text:  "Ask: “Are you choking?” If they can cough or speak, encourage coughing.",
+          image: "Choking.webp"
+        },
+         {
+          text: "If they cannot cough or breathe, lean them forward and give up to 5 sharp back blows between the shoulder blades.",
+          image: "Choking1.webp"
+        },
+        {
+          text: "If unsuccessful, stand behind them and give up to 5 abdominal thrusts (Heimlich maneuver).",
+          image: "Choking2.webp"
+        },
+        {
+          text: "Alternate 5 back blows and 5 abdominal thrusts until the object is expelled."
+        },
+        {
+          text: "If the person becomes unresponsive, start CPR and call emergency services.",
+          image: "Choking4.webp"
+        },
+        {
+          text: "After the object is expelled, keep the person still and seek medical evaluation."
+        },
       ],
       medKit: ["CPR face shield", "Pocket mask", "AED (if available)", "Gloves"],
       precautions: [
