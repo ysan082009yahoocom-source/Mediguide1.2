@@ -171,17 +171,13 @@ const appData = {
         },
         {
           text: "If unsuccessful, stand behind them and give up to 5 abdominal thrusts (Heimlich maneuver).",
+          text: "Alternate 5 back blows and 5 abdominal thrusts until the object is expelled.",
           image: "Choking2.webp"
         },
         {
-          text: "Alternate 5 back blows and 5 abdominal thrusts until the object is expelled."
-        },
-        {
           text: "If the person becomes unresponsive, start CPR and call emergency services.",
+          text: "After the object is expelled, keep the person still and seek medical evaluation.",
           image: "Choking4.webp"
-        },
-        {
-          text: "After the object is expelled, keep the person still and seek medical evaluation."
         },
       ],
       medKit: ["CPR face shield", "Pocket mask", "AED (if available)", "Gloves"],
