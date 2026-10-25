@@ -265,8 +265,14 @@ symptoms: [
 "Numbness or tingling below the injury"
 ],
 steps: [
-"Keep the person still and support the injured area in the position found.",
-"Apply a cold pack wrapped in cloth for up to 20 minutes to reduce swelling.",
+ {
+          text:  "Keep the person still and support the injured area in the position found.",
+          image: "fracture.webp"
+        },
+   {
+          text:  "Apply a cold pack wrapped in cloth for up to 20 minutes to reduce swelling.",
+          image: "fracture1.webp"
+        },
 "For a suspected fracture, immobilize the joint above and below the injury with a splint or sling.",
 "For a sprain or strain, remember RICE: Rest, Ice, Compression, Elevation.",
 "Check circulation below the injury — warmth, color, and sensation.",
