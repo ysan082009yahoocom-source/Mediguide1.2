@@ -995,7 +995,10 @@ callEmergency: [
 symptoms: [
 "Pamamaga ng mukha, labi, dila, o lalamunan",
 "Nahihirapang huminga, humihingal, o masikip ang dibdib",
-"Mga pantal, pamumula, o malawakang pangangati",
+{
+          text:  "Mga pantal, pamumula, o malawakang pangangati",
+          image: "allergy.webp"
+        },
 "Pagkahilo, mahinang pulso, o paghimatay",
 "Pagkasuka, pagsusuka, o pananakit ng tiyan",
 "Pakiramdam na tila may masamang mangyayari"
@@ -1003,7 +1006,10 @@ symptoms: [
 steps: [
 "Tumawag agad sa emergency services.",
 "Itanong kung ang tao ay may dalang epinephrine auto-injector (hal. EpiPen).",
-"Tulungan silang gamitin ito: alisin ang safety cap at iturok nang madiin sa labas ng gitnang hita.",
+{
+          text:  "Tulungan silang gamitin ito: alisin ang safety cap at iturok nang madiin sa labas ng gitnang hita.",
+          image: "allergy.webp"
+        },
 "Pahigaan ang tao nang patag na nakataas ang mga binti — o paupuin kung nahihirapang huminga.",
 "Kung magpatuloy ang mga sintomas pagkatapos ng 5 minuto at may available na ikalawang auto-injector, gamitin ito.",
 "Bantayan ang paghinga at simulan ang CPR kung ang tao ay mawalan ng malay.",
@@ -1046,9 +1052,19 @@ symptoms: [
 ],
 steps: [
 "Tandaan ang oras kung kailan nagsimula ang kombulsyon.",
-"Protektahan ang ulo gamit ang isang malambot na bagay at ilayo ang mga kalapit na mapanganib na kagamitan.",
-"Luwagan ang masisikip na damit sa paligid ng leeg.",
-"Dahan-dahang iroll ang tao sa kanilang tagiliran kapag huminto na ang panginginig upang mapanatiling malinis ang daanan ng hangin.",
+{
+          text:  "Protektahan ang ulo gamit ang isang malambot na bagay.",
+          image: "seizure.webp"
+        },
+  {
+          text:  "ilayo ang mga kalapit na mapanganib na kagamitan.",
+          image: "seizure1.webp"
+        },
+"Luwagan ang masisikip na damit sa paligid ng leeg.","Loosen tight clothing around the neck.",
+  {
+          text:  "Dahan-dahang iroll ang tao sa kanilang tagiliran kapag huminto na ang panginginig upang mapanatiling malinis ang daanan ng hangin.",
+          image: "seizure2.webp"
+        },
 "Manatili sa tabi nila hanggang sa sila ay ganap nang gising.",
 "Ipanatag ang kanilang loob at suriin kung may mga pinsala o sugat kapag natapos na ang atake."
 ],
@@ -1091,8 +1107,14 @@ steps: [
 "Ilipat ang tao sa isang malamig at may lilim na lugar.",
 "Alisin ang mga labis na kasuotan.",
 "Palamigin nang mabilis: sprayhan o punasan ng malamig na tubig at paypayan sila.",
-"Maglapat ng mga cold pack sa leeg, kilikili, at singit.",
-"Kung gising at hindi nagsusuka, bigyan ng maliliit na sipsip ng tubig o sports drink.",
+  {
+          text:  "Maglapat ng mga cold pack sa leeg, kilikili, at singit.",
+          image: "hstroke.webp"
+        },
+{
+          text:  "Kung gising at hindi nagsusuka, bigyan ng maliliit na sipsip ng tubig o sports drink.",
+          image: "hstroke1.webp"
+        },
 "Bantayan silang maigi — kung magkaroon ng pagkalito o pagkawala ng malay, tumawag sa emergency services."
 ],
 medKit: ["Cold pack", "Tubig / oral rehydration salts", "Malamig na tela o spray bottle", "Emergency blanket (para sa lilim)", "Thermometer"],
@@ -1130,12 +1152,26 @@ symptoms: [
 "Mabagal at mababaw na paghinga"
 ],
 steps: [
-"Ilayo ang tao sa malamig na lugar at alisin ang basang damit.",
-"Balutin sila sa mga kumot, unahin ang ulo at katawan.",
-"Magbigay ng mainit, matamis, at walang alak na inumin kung sila ay gising at nakakalunok.",
-"Maglapat ng maiinit (hindi napakainit) na pack sa dibdib, leeg, at singit.",
-"Hawakan ang tao nang dahan-dahan upang maiwasang mag-trigger ng mga problema sa ritmo ng puso.",
-"Bantayan ang paghinga at simulan ang CPR kung sila ay mawalan ng malay at hindi humihinga nang normal."
+{
+text: "Ilayo ang tao sa malamig na lugar at alisin ang basang damit.",
+image: "hypothermia.webp"
+},
+{
+text: "Balutin sila sa mga kumot, unahin ang ulo at katawan.",
+image: "hypothermia1.webp"
+},
+{
+text: "Magbigay ng mainit, matamis, at walang alak na inumin kung sila ay gising at nakakalunok.",
+image: "hypothermia2.webp"
+},
+{
+text: "Maglapat ng maiinit (hindi napakainit) na pack sa dibdib, leeg, at singit.",
+image: "hypothermia3.webp"
+},
+{
+text: "Hawakan ang tao nang dahan-dahan upang maiwasang mag-trigger ng mga problema sa ritmo ng puso. Bantayan ang paghinga at simulan ang CPR kung sila ay mawalan ng malay at hindi humihinga nang normal.",
+image: "hypothermia4.webp"
+},
 ],
 medKit: ["Emergency blanket", "Maiinit na kumot / sleeping bag", "Warm packs", "Mainit na inuming walang alkohol", "Tuyong damit", "Thermometer"],
 precautions: [
