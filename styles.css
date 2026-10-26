@@ -343,7 +343,7 @@ body {
 .list-warn li {
     list-style: none;
     position: relative;
-    padding-left: 1.75rem;
+    padding-left: 2.5rem;
 }
 
 .list-warn li::before {
