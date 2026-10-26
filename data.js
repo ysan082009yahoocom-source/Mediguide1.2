@@ -596,6 +596,7 @@ symptoms: [
 "Confusion, anxiety, or unresponsiveness"
 ],
 steps: [
+  "Call emergency services.",
         {
           text:  "Call emergency services. Lay the person flat on their back.",          
           image: "shock.webp"
@@ -1287,12 +1288,26 @@ symptoms: [
 ],
 steps: [
 "Tumawag sa emergency services.",
-"Pahigaan ang tao nang patag sa kanilang likod.",
-"Itaas ang kanilang mga binti nang humigit-kumulang 30 cm (12 pulgada) kung walang pinaghihinalaang pinsala sa ulo, leeg, gulugod, o binti.",
-"Panatilihin silang mainit gamit ang isang kumot o emergency blanket.",
-"Luwagan ang masisikip na damit sa paligid ng leeg, dibdib, at baywang.",
-"Bantayan ang paghinga at pagtugon; simulan ang CPR kung huminto sila sa normal na paghinga.",
-"Huwag magbigay ng pagkain o inumin."
+{
+text: "Tumawag sa emergency services.Pahigaan ang tao nang patag sa kanilang likod.",
+image: "shock.webp"
+},
+{
+text: "Itaas ang kanilang mga binti nang humigit-kumulang 30 cm (12 pulgada) kung walang pinaghihinalaang pinsala sa ulo, leeg, gulugod, o binti.",
+image: "shock1.webp"
+},
+{
+text: "Panatilihin silang mainit gamit ang isang kumot o emergency blanket.",
+image: "shock2.webp"
+},
+{
+text: "Luwagan ang masisikip na damit sa paligid ng leeg, dibdib, at baywang.",
+image: "shock3.webp"
+},
+{
+text: "Bantayan ang paghinga at pagtugon; simulan ang CPR kung huminto sila sa normal na paghinga. magbigay ng pagkain o inumin."
+image: "shock4.webp"
+},
 ],
 medKit: ["Emergency blanket", "Guwantes", "CPR face shield", "Telepono para tumawag sa emergency services"],
 precautions: [
