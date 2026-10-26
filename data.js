@@ -417,8 +417,14 @@ steps: [
 "Move the person to a cool, shaded place.",
 "Remove excess clothing.",
 "Cool rapidly: spray or sponge with cool water and fan them.",
-"Apply cold packs to the neck, armpits, and groin.",
-"If alert and not vomiting, give small sips of water or a sports drink.",
+{
+          text:  "Apply cold packs to the neck, armpits, and groin.",
+          image: "hstroke.webp"
+        },
+{
+          text:  "If alert and not vomiting, give small sips of water or a sports drink.",
+          image: "hstroke1.webp"
+        },
 "Monitor closely — if confusion or unconsciousness occurs, call emergency services."
 ],
 medKit: ["Cold pack", "Water / oral rehydration salts", "Cool cloth or spray bottle", "Emergency blanket (for shade)", "Thermometer"],
