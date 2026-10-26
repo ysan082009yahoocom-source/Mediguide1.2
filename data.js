@@ -305,7 +305,10 @@ callEmergency: [
 symptoms: [
 "Swelling of the face, lips, tongue, or throat",
 "Difficulty breathing, wheezing, or tight chest",
-"Hives, redness, or widespread itching",
+{
+          text:  "Hives, redness, or widespread itching",
+          image: "allergy.webp"
+        },
 "Dizziness, weak pulse, or fainting",
 "Nausea, vomiting, or stomach cramps",
 "Feeling of impending doom"
@@ -313,7 +316,10 @@ symptoms: [
 steps: [
 "Call emergency services immediately.",
 "Ask if the person carries an epinephrine auto-injector (e.g., EpiPen).",
-"Help them use it: remove the safety cap and inject firmly into the outer mid-thigh.",
+{
+          text:  "Help them use it: remove the safety cap and inject firmly into the outer mid-thigh.",
+          image: "allergy.webp"
+        },
 "Have the person lie flat with legs raised — or sit up if breathing is difficult.",
 "If symptoms persist after 5 minutes and a second auto-injector is available, use it.",
 "Monitor breathing and start CPR if the person becomes unresponsive.",
@@ -356,9 +362,19 @@ symptoms: [
 ],
 steps: [
 "Note the time the seizure starts.",
-"Protect the head with something soft and clear away nearby objects.",
+  {
+          text:  "Protect the head with something soft",
+          image: "seizure.webp"
+        },
+  {
+          text:  "and clear away nearby objects.",
+          image: "seizure1.webp"
+        },
 "Loosen tight clothing around the neck.",
-"Gently roll the person onto their side when jerking stops to keep the airway clear.",
+  {
+          text:  "Gently roll the person onto their side when jerking stops to keep the airway clear.",
+          image: "seizure2.webp"
+        },
 "Stay with them until they are fully alert.",
 "Reassure them and check for injuries when the seizure ends."
 ],
