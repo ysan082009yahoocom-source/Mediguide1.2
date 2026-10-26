@@ -1344,12 +1344,27 @@ symptoms: [
 "Maputla, malamig, at basang-basa ng pawis na balat"
 ],
 steps: [
-"Pahinga at posisyon: Paupuin ang tao nang tuwid o bahagyang isandal sa isang malamig, tahimik, at maayos ang bentilasyong lugar na may sariwang hangin. Iwasan ang biglaang paggalaw.",
+{
+text: "Pahinga at posisyon: Paupuin ang tao nang tuwid o bahagyang isandal sa isang malamig, tahimik, at maayos ang bentilasyong lugar na may sariwang hangin. Iwasan ang biglaang paggalaw.",
+image: "nausea.webp"
+},
 "Magbigay ng sariwang hangin: Buksan ang bintana o gumamit ng bentilador para palamigin sila. Maglapat ng malamig at basang tela sa likod ng kanilang leeg.",
-"Hikayatin ang dahan-dahan na hydration: Mag-alok ng maliliit at madalas na sipsip ng malinaw na tubig, electrolyte solutions, o diluted na juice kapag lumipas na ang unang bugso. Huwag hayaang lumunok ng marami nang biglaan.",
-"Subukan ang mga natural na lunas: Mag-alok ng tsaa na may luya o peppermint kung mayroon, o subukan ang wrist acupressure (pagpindot sa P6 point sa loob ng pulso).",
-"Magpasok ng matatabang pagkain nang dahan-dahan: Kung kaya na nilang tumanggap ng likido at nagugutom, mag-alok ng maliliit na bahagi ng simpleng pagkain tulad ng BRAT diet (saging, kanin, applesauce, tinapay) o simpleng crackers.",
-"Iwasan ang mga matataba, maaanghang, o may matatapang na amoy na pagkain."
+{
+text: "Hikayatin ang dahan-dahan na hydration: Mag-alok ng maliliit at madalas na sipsip ng malinaw na tubig, electrolyte solutions, o diluted na juice kapag lumipas na ang unang bugso. Huwag hayaang lumunok ng marami nang biglaan.",
+image: "nausea1.webp"
+},
+{
+text: "Subukan ang mga natural na lunas: Mag-alok ng tsaa na may luya o peppermint kung mayroon, o subukan ang wrist acupressure (pagpindot sa P6 point sa loob ng pulso).",
+image: "nausea2.webp"
+},
+{
+text: "Magpasok ng matatabang pagkain nang dahan-dahan: Kung kaya na nilang tumanggap ng likido at nagugutom, mag-alok ng maliliit na bahagi ng simpleng pagkain tulad ng BRAT diet (saging, kanin, applesauce, tinapay) o simpleng crackers.",
+image: "nausea3.webp"
+},
+{
+text: "Iwasan ang mga matataba, maaanghang, o may matatapang na amoy na pagkain."
+image: "nausea4.webp"
+},
 ],
 medKit: ["Tubig o oral rehydration solution", "Crackers / simpleng meryenda", "Tsaa na may luya o peppermint", "Malamig na tela", "Plastik o mangkok para sa pagsusuka"],
 precautions: [
