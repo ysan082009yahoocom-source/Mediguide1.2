@@ -814,7 +814,7 @@ precautions: [
       ],
       steps: [
         {
-text: "Itanong: \"Nabilaukan ka ba?\" Kung kaya nilang umubo o magsalita, hikayatin silang umubo.",
+text: "Itanong: Nabilaukan ka ba? Kung kaya nilang umubo o magsalita, hikayatin silang umubo.",
 image: "Choking.webp"
 },
 {
