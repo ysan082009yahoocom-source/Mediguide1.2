@@ -139,16 +139,6 @@ import appData from './data.js';
         output += '</li>';
         return output;
       }).join("") +
-      "</ol>" +
-      "</section>" +
-      '<section class="guide-section">' +
-      "<h3>" + labels.firstAidTitle + "</h3>" +
-      '<ol class="list list-steps">' +
-      emergency.steps.map(function (item) {
-        return "<li>" + escapeHtml(item) + "</li>";
-      }).join("") +
-      "</ol>" +
-      "</section>" +
       '<section class="guide-section">' +
       "<h3>" + labels.medKitTitle + "</h3>" +
       '<div class="chips">' +
