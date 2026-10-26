@@ -955,8 +955,14 @@ symptoms: [
 "Pamamanhid o kuryente sa ibaba ng pinsala"
 ],
 steps: [
-"Panatilihing walang galaw ang tao at suportahan ang napinsalang bahagi sa posisyong natagpuan.",
-"Maglapat ng cold pack na nakabalot sa tela nang hanggang 20 minuto para mabawasan ang pamamaga.",
+{
+          text:  "Panatilihing walang galaw ang tao at suportahan ang napinsalang bahagi sa posisyong natagpuan.",
+          image: "fracture.webp"
+        },
+   {
+          text:  "Maglapat ng cold pack na nakabalot sa tela nang hanggang 20 minuto para mabawasan ang pamamaga.",
+          image: "fracture1.webp"
+        },
 "Para sa pinaghihinalaang bali, i-immobilize ang kasukasuan sa itaas at ibaba ng pinsala gamit ang splint o sling.",
 "Para sa pilay o lamog, tandaan ang RICE: Rest (Pahinga), Ice (Yelo), Compression (Bendahe), Elevation (Itaas).",
 "Suriin ang sirkulasyon sa ibaba ng pinsala — init, kulay, at pakiramdam.",
