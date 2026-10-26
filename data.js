@@ -754,12 +754,30 @@ precautions: [
         "Nahihirapang huminga kung nakalanghap ng usok"
       ],
       steps: [
-        "Ilayo ang tao mula sa pinagmulan ng paso.",
-        "Palamigin ang paso sa ilalim ng umaagos na tubig (hindi yelo) sa loob ng 10–20 minuto.",
-        "Alisin ang mga singsing, orasan, o masikip na damit bago magsimula ang pamamaga.",
-        "Takpan ang paso nang maluwag gamit ang sterile non-stick dressing o malinis na cling film.",
-        "Protektahan ang tao sa lamig at bantayan kung magpapakita ng shock.",
-        "Huwag putukin ang mga paltos — iwanang buo upang mabawasan ang panganib ng inheksyon."
+         {
+          text: "Ilayo ang tao mula sa pinagmulan ng paso.",
+          image: "burn.webp"
+        },
+ {
+          text: "Palamigin ang paso sa ilalim ng umaagos na tubig (hindi yelo) sa loob ng 10–20 minuto.",
+          image: "burn1.webp"
+        },
+         {
+          text: "Alisin ang mga singsing, orasan, o masikip na damit bago magsimula ang pamamaga.",
+          image: "burn2.webp"
+        },
+         {
+          text: "Takpan ang paso nang maluwag gamit ang sterile non-stick dressing o malinis na cling film.",
+          image: "burn3.webp"
+        },
+         {
+          text: "Protektahan ang tao sa lamig at bantayan kung magpapakita ng shock.",
+          image: "burn4.webp"
+        },
+         {
+          text: "Huwag putukin ang mga paltos — iwanang buo upang mabawasan ang panganib ng inheksyon.",
+          image: "burn5.webp"
+        },
       ],
       medKit: ["Burn gel / hydrogel dressing", "Sterile non-stick dressings", "Cling film", "Running water", "Disposable gloves", "Emergency blanket"],
       precautions: [
