@@ -1251,7 +1251,7 @@ symptoms: [
 ],
 steps: [
 {
-          text:  "Gamitin ang FAST: Face (Mukha) — paikutin silang ngumiti. Arm (Bisig) — paangatin ang dalawang braso. Speech (Pagsasalita) — paanditin silang umulit ng simpleng pangungusap. Time (Oras) — itala kung kailan nagsimula ang mga sintomas.","Call emergency services. Lay the person flat on their back.",          
+          text:  "Gamitin ang FAST: Face (Mukha) — paikutin silang ngumiti. Arm (Bisig) — paangatin ang dalawang braso. Speech (Pagsasalita) — paanditin silang umulit ng simpleng pangungusap. Time (Oras) — itala kung kailan nagsimula ang mga sintomas.",          
           image: "v4-460px-Identify-if-Someone-Had-a-Stroke-Step-3-Version-2.jpg.webp"
         },
 "Tumawag agad sa emergency services kung may makitang anumang senyales.",
