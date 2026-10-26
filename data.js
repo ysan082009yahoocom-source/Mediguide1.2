@@ -874,7 +874,7 @@ image: "cpr1.webp"
 },
 "Gamitin ang AED sa sandaling dumating ito at sundin ang mga tagubilin ng boses nito.",
 {
-text: "Ipagpatuloy hanggang sa dumating ang tulong o magsimulang huminga nang normal ang tao."
+text: "Ipagpatuloy hanggang sa dumating ang tulong o magsimulang huminga nang normal ang tao.",
 image: "cpr2.webp"
 },
       ],
