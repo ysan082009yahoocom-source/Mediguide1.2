@@ -813,12 +813,22 @@ precautions: [
         "Pagka-panic o pagkawala ng malay"
       ],
       steps: [
-        "Itanong: \"Nabilaukan ka ba?\" Kung kaya nilang umubo o magsalita, hikayatin silang umubo.",
-        "Kung hindi sila makaubo o makahinga, itumba sila nang bahagya pasulong at bigyan ng hanggang 5 matatalas na tapik sa likod sa pagitan ng mga paypay.",
-        "Kung hindi nagtagumpay, tumayo sa likod nila at bigyan ng hanggang 5 pagpindot sa tiyan (Heimlich maneuver).",
-        "Magpalit-palit sa 5 tapik sa likod at 5 pagpindot sa tiyan hanggang sa mailabas ang nakabarang bagay.",
-        "Kung ang tao ay mawalan ng malay, simulan ang CPR at tumawag sa emergency services.",
-        "Pagkatapos mailabas ang bagay, panatilihing nakahinto ang tao at magpatingin sa doktor."
+        {
+text: "Itanong: \"Nabilaukan ka ba?\" Kung kaya nilang umubo o magsalita, hikayatin silang umubo.",
+image: "Choking.webp"
+},
+{
+text: "Kung hindi sila makaubo o makahinga, itumba sila nang bahagya pasulong at bigyan ng hanggang 5 matatalas na tapik sa likod sa pagitan ng mga paypay.",
+image: "Choking1.webp"
+},
+{
+text: "Kung hindi nagtagumpay, tumayo sa likod nila at bigyan ng hanggang 5 pagpindot sa tiyan (Heimlich maneuver). Magpalit-palit sa 5 tapik sa likod at 5 pagpindot sa tiyan hanggang sa mailabas ang nakabarang bagay.",
+image: "Choking2.webp"
+},
+{
+text: "Kung ang tao ay mawalan ng malay, simulan ang CPR at tumawag sa emergency services. Pagkatapos mailabas ang bagay, panatilihing nakahinto ang tao at magpatingin sa doktor.",
+image: "Choking4.webp"
+},
       ],
       medKit: ["CPR face shield", "Guwantes", "Telepono para tumawag sa emergency services"],
       precautions: [
