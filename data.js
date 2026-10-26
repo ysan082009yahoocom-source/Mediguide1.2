@@ -318,7 +318,7 @@ steps: [
 "Ask if the person carries an epinephrine auto-injector (e.g., EpiPen).",
 {
           text:  "Help them use it: remove the safety cap and inject firmly into the outer mid-thigh.",
-          image: "allergy1.webp"
+          image: "allergy2.webp"
         },
 "Have the person lie flat with legs raised — or sit up if breathing is difficult.",
 "If symptoms persist after 5 minutes and a second auto-injector is available, use it.",
@@ -1012,7 +1012,7 @@ steps: [
 "Itanong kung ang tao ay may dalang epinephrine auto-injector (hal. EpiPen).",
 {
           text:  "Tulungan silang gamitin ito: alisin ang safety cap at iturok nang madiin sa labas ng gitnang hita.",
-          image: "allergy1.webp"
+          image: "allergy2.webp"
         },
 "Pahigaan ang tao nang patag na nakataas ang mga binti — o paupuin kung nahihirapang huminga.",
 "Kung magpatuloy ang mga sintomas pagkatapos ng 5 minuto at may available na ikalawang auto-injector, gamitin ito.",
