@@ -318,7 +318,7 @@ steps: [
 "Ask if the person carries an epinephrine auto-injector (e.g., EpiPen).",
 {
           text:  "Help them use it: remove the safety cap and inject firmly into the outer mid-thigh.",
-          image: "allergy.webp"
+          image: "allergy1.webp"
         },
 "Have the person lie flat with legs raised — or sit up if breathing is difficult.",
 "If symptoms persist after 5 minutes and a second auto-injector is available, use it.",
@@ -556,7 +556,10 @@ symptoms: [
 "Sudden severe headache, dizziness, or vision problems"
 ],
 steps: [
-"Use FAST: Face — ask them to smile. Arm — ask them to raise both arms. Speech — ask them to repeat a simple sentence. Time — note when symptoms started.",
+{
+          text:  "Use FAST: Face — ask them to smile. Arm — ask them to raise both arms. Speech — ask them to repeat a simple sentence. Time — note when symptoms started.",          
+          image: "v4-460px-Identify-if-Someone-Had-a-Stroke-Step-3-Version-2.jpg.webp"
+        },
 "Call emergency services immediately if any sign is present.",
 "Note the time symptoms first appeared and share it with responders.",
 "Keep the person still with the head and shoulders slightly raised.",
@@ -1009,7 +1012,7 @@ steps: [
 "Itanong kung ang tao ay may dalang epinephrine auto-injector (hal. EpiPen).",
 {
           text:  "Tulungan silang gamitin ito: alisin ang safety cap at iturok nang madiin sa labas ng gitnang hita.",
-          image: "allergy.webp"
+          image: "allergy1.webp"
         },
 "Pahigaan ang tao nang patag na nakataas ang mga binti — o paupuin kung nahihirapang huminga.",
 "Kung magpatuloy ang mga sintomas pagkatapos ng 5 minuto at may available na ikalawang auto-injector, gamitin ito.",
@@ -1247,7 +1250,10 @@ symptoms: [
 "Biglaang matinding sakit ng ulo, pagkahilo, o problema sa paningin"
 ],
 steps: [
-"Gamitin ang FAST: Face (Mukha) — paikutin silang ngumiti. Arm (Bisig) — paangatin ang dalawang braso. Speech (Pagsasalita) — paanditin silang umulit ng simpleng pangungusap. Time (Oras) — itala kung kailan nagsimula ang mga sintomas.",
+{
+          text:  "Gamitin ang FAST: Face (Mukha) — paikutin silang ngumiti. Arm (Bisig) — paangatin ang dalawang braso. Speech (Pagsasalita) — paanditin silang umulit ng simpleng pangungusap. Time (Oras) — itala kung kailan nagsimula ang mga sintomas.","Call emergency services. Lay the person flat on their back.",          
+          image: "v4-460px-Identify-if-Someone-Had-a-Stroke-Step-3-Version-2.jpg.webp"
+        },
 "Tumawag agad sa emergency services kung may makitang anumang senyales.",
 "Itala ang oras kung kailan unang lumitaw ang mga sintomas at ibahagi ito sa mga reresponde.",
 "Panatilihing nakahinto ang tao na may bahagyang nakataas ang ulo at mga balikat.",
