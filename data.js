@@ -861,14 +861,22 @@ image: "Choking4.webp"
         "Walang pulso o mga senyales ng sirkulasyon"
       ],
       steps: [
-        "Suriin kung ligtas ang paligid, pagkatapos ay tapikin at sumigaw para tingnan kung gising ang tao.",
-        "Tumawag sa emergency services at kumuha ng AED kung mayroon.",
-        "Iposisyon ang ibaba ng isang kamay sa gitna ng dibdib; ilagay ang isa pang kamay sa ibabaw at pag-isandigin ang mga daliri.",
-        "Pumindot nang madiin at mabilis — hindi bababa sa 5 cm (2 pulgada) ang lalim sa bilis na 100–120 compressions bawat minuto.",
-        "Hayaang bumalik sa normal ang dibdib sa pagitan ng mga pagbomba.",
-        "Kung sanay, magbigay ng 2 artipisyal na paghinga pagkatapos ng bawat 30 pagbomba; kung hindi, ipagpatuloy ang hands-only CPR.",
-        "Gamitin ang AED sa sandaling dumating ito at sundin ang mga tagubilin ng boses nito.",
-        "Ipagpatuloy hanggang sa dumating ang tulong o magsimulang huminga nang normal ang tao."
+      "Suriin kung ligtas ang paligid, pagkatapos ay tapikin at sumigaw para tingnan kung gising ang tao.",
+"Tumawag sa emergency services at kumuha ng AED kung mayroon.",
+{
+text: "Iposisyon ang ibaba ng isang kamay sa gitna ng dibdib; ilagay ang isa pang kamay sa ibabaw at pag-isandigin ang mga daliri. Pumindot nang madiin at mabilis — hindi bababa sa 5 cm (2 pulgada) ang lalim sa bilis na 100–120 compressions bawat minuto.",
+image: "cpr.webp"
+},
+"Hayaang bumalik sa normal ang dibdib sa pagitan ng mga pagbomba.",
+{
+text: "Kung sanay, magbigay ng 2 artipisyal na paghinga pagkatapos ng bawat 30 pagbomba; kung hindi, ipagpatuloy ang hands-only CPR.",
+image: "cpr1.webp"
+},
+"Gamitin ang AED sa sandaling dumating ito at sundin ang mga tagubilin ng boses nito.",
+{
+text: "Ipagpatuloy hanggang sa dumating ang tulong o magsimulang huminga nang normal ang tao."
+image: "cpr2.webp"
+},
       ],
       medKit: ["CPR face shield", "Pocket mask", "AED (kung mayroon)", "Guwantes"],
       precautions: [
