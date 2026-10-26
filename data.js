@@ -1305,7 +1305,7 @@ text: "Luwagan ang masisikip na damit sa paligid ng leeg, dibdib, at baywang.",
 image: "shock3.webp"
 },
 {
-text: "Bantayan ang paghinga at pagtugon; simulan ang CPR kung huminto sila sa normal na paghinga. magbigay ng pagkain o inumin."
+text: "Bantayan ang paghinga at pagtugon; simulan ang CPR kung huminto sila sa normal na paghinga. magbigay ng pagkain o inumin.",
 image: "shock4.webp"
 },
 ],
@@ -1362,7 +1362,7 @@ text: "Magpasok ng matatabang pagkain nang dahan-dahan: Kung kaya na nilang tuma
 image: "nausea3.webp"
 },
 {
-text: "Iwasan ang mga matataba, maaanghang, o may matatapang na amoy na pagkain."
+text: "Iwasan ang mga matataba, maaanghang, o may matatapang na amoy na pagkain.",
 image: "nausea4.webp"
 },
 ],
