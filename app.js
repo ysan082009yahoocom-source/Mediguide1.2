@@ -27,6 +27,24 @@ import appData from './data.js';
     return div.innerHTML;
   }
 
+ // New Helper: Converts plain text "CPR" references into custom inline action links
+  window.linkifyCpr = function(htmlString) {
+    // This looks for "CPR" as a whole word and replaces it with a clickable script execution hook
+    return htmlString.replace(/\bCPR\b/g, function() {
+      return '<a href="#" onclick="window.switchToCprTab(event)" style="color: var(--accent); font-weight: bold; text-decoration: underline;">CPR</a>';
+    });
+  };
+
+  // Expose tab switcher hook to the global window environment for inline onclick handlers
+  window.switchToCprTab = function(event) {
+    event.preventDefault();
+    if (typeof selectEmergency === "function") {
+      selectEmergency("cpr");
+      // Smoothly scroll the user back to top view so they see the fresh layout card details
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+  };
+  
   function renderTabs(query) {
     const EMERGENCIES = getActiveEmergencies();
     const filter = (query || "").trim().toLowerCase();
@@ -115,7 +133,8 @@ import appData from './data.js';
       "<strong>" + labels.callEmergencyTitle + "</strong>" +
       "<ul>" +
       emergency.callEmergency.map(function (item) {
-        return "<li>" + escapeHtml(item) + "</li>";
+        // Wrapped with linkifyCpr helper rule
+        return "<li>" + window.linkifyCpr(escapeHtml(item)) + "</li>";
       }).join("") +
       "</ul>" +
       "</aside>" +
@@ -128,9 +147,9 @@ import appData from './data.js';
         const textValue = isObject ? item.text : item;
         const imgUrl = isObject ? item.image : '';
         
-        // 2. Start building the list item with text
+        // 2. Start building the list item with text (Wrapped with linkifyCpr helper rule)
         let output = '<li class="step-item-container" style="margin-bottom: 20px;">' + 
-                     '<p class="step-text" style="margin-bottom: 8px;">' + escapeHtml(textValue) + '</p>';
+                     '<p class="step-text" style="margin-bottom: 8px;">' + window.linkifyCpr(escapeHtml(textValue)) + '</p>';
         
         // 3. ONLY add the <img> tag if an image path is provided
         if (imgUrl && imgUrl.trim() !== '') {
@@ -152,7 +171,8 @@ import appData from './data.js';
       "<h3>" + labels.doNotTitle + "</h3>" +
       '<ul class="list list-warn">' +
       emergency.precautions.map(function (item) {
-        return "<li>" + escapeHtml(item) + "</li>";
+        // Wrapped with linkifyCpr helper rule
+        return "<li>" + window.linkifyCpr(escapeHtml(item)) + "</li>";
       }).join("") +
       "</ul>" +
       "</section>" +
