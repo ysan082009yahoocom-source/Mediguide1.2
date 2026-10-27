@@ -9,7 +9,8 @@ import appData from './data.js';
   const printBtn = document.getElementById("printBtn");
   const installBtn = document.getElementById("installBtn");
   const offlineBadge = document.getElementById("offlineBadge");
-  const langSelect = document.getElementById("langSelect"); // New Dropdown Reference
+  const langSelect = document.getElementById("langSelect");
+  const creditsBtn = document.getElementById("creditsBtn");
 
   let activeId = null;
   let deferredInstallPrompt = null;
@@ -166,6 +167,34 @@ import appData from './data.js';
     });
   }
 
+ // Hook up Credits Tab Event Trigger
+  if (creditsBtn) {
+    creditsBtn.addEventListener("click", function () {
+      // Clear active styling states from the category pills layout
+      document.querySelectorAll(".tab").forEach(function (button) {
+        if (button !== creditsBtn) {
+          button.classList.remove("active");
+          button.setAttribute("aria-selected", "false");
+        }
+      });
+      
+      // Highlight the credits tab button layout natively
+      creditsBtn.classList.add("active");
+
+      // Replace layout pane content markup safely using your simple custom text container
+      contentEl.innerHTML = 
+        '<article class="guide" style="padding: 2.5rem; text-align: left;">' +
+        '<h2 style="margin-top: 0;">Application Credits</h2>' +
+        '<p style="font-size: 1.1rem; line-height: 1.7; color: var(--muted);">' +
+        'This reference dashboard application is built to deliver optimized, offline-ready ' +
+        'first aid reference metrics and layout emergency response steps safely anywhere.<br><br>' +
+        '<strong>Image Resources & Text Data:</strong> Instructional imagery vectors ' +
+        'and content references are sourced directly from global databases at wikiHow.com.' +
+        '</p>' +
+        '</article>';
+    });
+  }
+  
   searchInput.addEventListener("input", function () {
     renderTabs(searchInput.value);
   });
