@@ -167,7 +167,7 @@ import appData from './data.js';
     });
   }
 
- // Hook up Credits Tab Event Trigger
+  // Hook up Credits Tab Event Trigger
   if (creditsBtn) {
     creditsBtn.addEventListener("click", function () {
       // Clear active styling states from the category pills layout
@@ -181,20 +181,91 @@ import appData from './data.js';
       // Highlight the credits tab button layout natively
       creditsBtn.classList.add("active");
 
-      // Replace layout pane content markup safely using your simple custom text container
+      // Render your custom sources layout inside the content block
       contentEl.innerHTML = 
         '<article class="guide" style="padding: 2.5rem; text-align: left;">' +
-        '<h2 style="margin-top: 0;">Application Credits</h2>' +
-        '<p style="font-size: 1.1rem; line-height: 1.7; color: var(--muted);">' +
-        'This reference dashboard application is built to deliver optimized, offline-ready ' +
-        'first aid reference metrics and layout emergency response steps safely anywhere.<br><br>' +
-        '<strong>Image Resources & Text Data:</strong> Instructional imagery vectors ' +
-        'and content references are sourced directly from global databases at wikiHow.com.' +
+        '<h2 style="margin-top: 0; margin-bottom: 1.5rem; color: var(--accent);">First Aid Illustrations & Guide Steps:</h2>' +
+        '<p style="font-size: 1.05rem; margin-bottom: 1.5rem; line-height: 1.7;">' +
+        "Medical illustrations used throughout this application have been adapted from wikiHow, a wiki building the world's largest, highest-quality how-to manual.<br>" +
+        'Content is provided here for educational purposes for this research project. Original articles and full creator histories can be found online at ' +
+        '<a href="https://www.wikihow.com" target="_blank" rel="noopener" style="color: var(--accent); font-weight: 600;">www.wikihow.com</a>.' +
         '</p>' +
+        
+        '<div class="credits-links" style="display: flex; flex-direction: column; gap: 1.2rem; border-top: 1px solid var(--border); padding-top: 1.5rem;">' +
+        
+        '<div>' +
+        '<strong>Bone Fractures & sprains:</strong><br>' +
+        '<a href="https://www.wikihow.com/Category:Bone-Fractures" target="_blank" rel="noopener" style="color: var(--accent); word-break: break-all; font-size: 0.95rem;">https://www.wikihow.com/Category:Bone-Fractures</a><br>' +
+        '<a href="https://www.wikihow.com/Treat-a-Broken-Finger" target="_blank" rel="noopener" style="color: var(--accent); word-break: break-all; font-size: 0.95rem;">https://www.wikihow.com/Treat-a-Broken-Finger</a><br>' +
+        '<a href="https://www.wikihow.com/Remove-a-Ring-in-an-Emergency" target="_blank" rel="noopener" style="color: var(--accent); word-break: break-all; font-size: 0.95rem;">https://www.wikihow.com/Remove-a-Ring-in-an-Emergency</a>' +
+        '</div>' +
+
+        '<div>' +
+        '<strong>Seizures:</strong><br>' +
+        '<a href="https://www.wikihow.com/Help-Someone-Who-Is-Having-a-Seizure" target="_blank" rel="noopener" style="color: var(--accent); word-break: break-all; font-size: 0.95rem;">https://www.wikihow.com/Help-Someone-Who-Is-Having-a-Seizure</a>' +
+        '</div>' +
+
+        '<div>' +
+        '<strong>Allergies/anaphylaxis:</strong><br>' +
+        '<a href="https://www.wikihow.com/Treat-Allergies" target="_blank" rel="noopener" style="color: var(--accent); word-break: break-all; font-size: 0.95rem;">https://www.wikihow.com/Treat-Allergies</a>' +
+        '</div>' +
+
+        '<div>' +
+        '<strong>Shock:</strong><br>' +
+        '<a href="https://www.wikihow.com/Treat-Shock" target="_blank" rel="noopener" style="color: var(--accent); word-break: break-all; font-size: 0.95rem;">https://www.wikihow.com/Treat-Shock</a>' +
+        '</div>' +
+
+        '<div>' +
+        '<strong>Stomach ache/ pain:</strong><br>' +
+        '<a href="https://www.wikihow.com/Cure-a-Stomach-Ache" target="_blank" rel="noopener" style="color: var(--accent); word-break: break-all; font-size: 0.95rem;">https://www.wikihow.com/Cure-a-Stomach-Ache</a>' +
+        '</div>' +
+
+        '<div>' +
+        '<strong>Nausea:</strong><br>' +
+        '<a href="https://www.wikihow.com/Stop-Vomiting" target="_blank" rel="noopener" style="color: var(--accent); word-break: break-all; font-size: 0.95rem;">https://www.wikihow.com/Stop-Vomiting</a>' +
+        '</div>' +
+
+        '<div>' +
+        '<strong>Burns and scalds:</strong><br>' +
+        '<a href="https://www.wikihow.com/Heal-Burns-Fast" target="_blank" rel="noopener" style="color: var(--accent); word-break: break-all; font-size: 0.95rem;">https://www.wikihow.com/Heal-Burns-Fast</a><br>' +
+        '<a href="https://www.wikihow.com/Remove-a-Ring-in-an-Emergency" target="_blank" rel="noopener" style="color: var(--accent); word-break: break-all; font-size: 0.95rem;">https://www.wikihow.com/Remove-a-Ring-in-an-Emergency</a>' +
+        '</div>' +
+
+        '<div>' +
+        '<strong>Cpr/heart attack:</strong><br>' +
+        '<a href="https://www.wikihow.com/Do-CPR" target="_blank" rel="noopener" style="color: var(--accent); word-break: break-all; font-size: 0.95rem;">https://www.wikihow.com/Do-CPR</a>' +
+        '</div>' +
+
+        '<div>' +
+        '<strong>Heatstroke/heat exhaustion:</strong><br>' +
+        '<a href="https://www.wikihow.health/Treat-Heatstroke" target="_blank" rel="noopener" style="color: var(--accent); word-break: break-all; font-size: 0.95rem;">https://www.wikihow.health/Treat-Heatstroke</a><br>' +
+        '<a href="https://www.wikihow.com/Cure-Shortness-of-Breath" target="_blank" rel="noopener" style="color: var(--accent); word-break: break-all; font-size: 0.95rem;">https://www.wikihow.com/Cure-Shortness-of-Breath</a>' +
+        '</div>' +
+
+        '<div>' +
+        '<strong>Hypothermia:</strong><br>' +
+        '<a href="https://www.wikihow.com/Treat-Hypothermia" target="_blank" rel="noopener" style="color: var(--accent); word-break: break-all; font-size: 0.95rem;">https://www.wikihow.com/Treat-Hypothermia</a>' +
+        '</div>' +
+
+        '<div>' +
+        '<strong>Choking:</strong><br>' +
+        '<a href="https://www.wikihow.com/Help-a-Choking-Victim" target="_blank" rel="noopener" style="color: var(--accent); word-break: break-all; font-size: 0.95rem;">https://www.wikihow.com/Help-a-Choking-Victim</a>' +
+        '</div>' +
+
+        '<div>' +
+        '<strong>Poisoning:</strong><br>' +
+        '<a href="https://www.wikihow.com/Get-Rid-of-Food-Poisoning" target="_blank" rel="noopener" style="color: var(--accent); word-break: break-all; font-size: 0.95rem;">https://www.wikihow.com/Get-Rid-of-Food-Poisoning</a>' +
+        '</div>' +
+
+        '<div>' +
+        '<strong>Stroke:</strong><br>' +
+        '<a href="https://www.wikihow.com/Identify-if-Someone-Had-a-Stroke" target="_blank" rel="noopener" style="color: var(--accent); word-break: break-all; font-size: 0.95rem;">https://www.wikihow.com/Identify-if-Someone-Had-a-Stroke</a>' +
+        '</div>' +
+
+        '</div>' +
         '</article>';
     });
   }
-  
   searchInput.addEventListener("input", function () {
     renderTabs(searchInput.value);
   });
