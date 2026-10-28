@@ -224,10 +224,9 @@ const appData = {
       steps: [
         "Have the person rest in a comfortable position, such as lying down with knees bent or slightly elevated.",
         "Loosen tight clothing around the waist and abdomen.",
-        "Apply a warm compress or heating pad to the abdomen for 15-20 minutes to soothe cramps.",
         "Encourage slow sips of water, clear broths, or herbal teas like peppermint or ginger.",
-"Avoid giving solid foods, caffeine, alcohol, carbonated drinks, or dairy until the pain subsides.",
-"Monitor for any worsening signs or red flag symptoms that may indicate a surgical emergency like appendicitis."
+        "Avoid giving solid foods, caffeine, alcohol, carbonated drinks, or dairy until the pain subsides.",
+        "Monitor for any worsening signs or red flag symptoms that may indicate a surgical emergency like appendicitis."
 ],
 medKit: ["Heating pad or warm compress", "Antacids (for indigestion)", "Electrolyte solutions", "Ginger or peppermint tea bags"],
 precautions: [
@@ -918,7 +917,6 @@ symptoms: [
 steps: [
 "Paupuin o pahigaan ang tao sa isang komportableng posisyon, tulong ang pagbaluktot o bahagyang pagtaas ng mga tuhod.",
 "Luwagan ang mga masikip na damit sa paligid ng baywang at tiyan.",
-"Maglapat ng mainit na compress o heating pad sa tiyan sa loob ng 15-20 minuto para maibsan ang pananakit.",
 "Hikayatin ang dahan-dahang pag-inom ng tubig, malinaw na sabaw, o mga herbal tea tulad ng peppermint o luya.",
 "Iwasang magbigay ng matitigas na pagkain, kapeina, alak, carbonated na inumin, o gatas hanggang sa mawala ang sakit.",
 "Bantayan ang anumang lumalalang senyales o mga seryosong sintomas na maaaring magpahiwatig ng emergency tulad ng appendicitis."
