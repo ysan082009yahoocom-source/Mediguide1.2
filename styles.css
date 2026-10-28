@@ -164,7 +164,7 @@ body {
 
 .tab {
     border: 1px solid var(--border);
-    box-shadow: 0 0 0 4px rgba(220, 38, 38, 0.12);
+    box-shadow: var(--shadow);
     background: var(--surface);
     color: var(--ink);
     border-radius: 999px;
