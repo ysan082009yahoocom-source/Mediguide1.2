@@ -397,10 +397,11 @@ body {
     max-width: 960px;
     margin: 0 auto;
     padding: 0 clamp(1.25rem, 5vw, 2rem) 3rem;
-    color: var(--surface);
+    color: var(--muted);
     font-size: 0.9rem;
     text-align: center;
-    border: 1px solid black;                    
+    border: 1px solid black;  
+    background: var(--surface);
 }
 
 /* ---------- Responsive Mobile Styles ---------- */
