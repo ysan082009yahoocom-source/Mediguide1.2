@@ -468,6 +468,8 @@ body {
     }
 
     .additional-info {
-      border: 2px double #F9F6EE;
-      padding: 0.75rem;
+  border: 2px solid #dc2626; 
+  padding: 15px;             
+  border-radius: 6px;        
+  margin-top: 20px;        
     }
