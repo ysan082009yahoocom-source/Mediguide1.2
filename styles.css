@@ -466,3 +466,8 @@ body {
         background: #f2f2f2;
         break-inside: avoid;
     }
+
+    .my-custom-border {
+      border: 2px double #f2f2f2; /* 4px thick, double line style, hex color */
+      padding: 12px;
+    }
