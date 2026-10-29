@@ -397,11 +397,10 @@ body {
     max-width: 960px;
     margin: 0 auto;
     padding: 0 clamp(1.25rem, 5vw, 2rem) 3rem;
-    color: var(--muted);
+    color: var(--surface);
     font-size: 0.9rem;
     text-align: center;
-    border: 2px solid black;             
-    border-radius: 6px;        
+    border: 1px solid black;                    
 }
 
 /* ---------- Responsive Mobile Styles ---------- */
@@ -467,11 +466,4 @@ body {
     .list-steps li {
         background: #f2f2f2;
         break-inside: avoid;
-    }
-
-    .additional-info {
-  border: 2px solid #dc2626; 
-  padding: 15px;             
-  border-radius: 6px;        
-  margin-top: 20px;        
     }
