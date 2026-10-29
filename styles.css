@@ -402,6 +402,7 @@ body {
     text-align: center;
     border: 1px solid black;  
     background: var(--surface);
+    border-radius: var(--radius-sm);
 }
 
 /* ---------- Responsive Mobile Styles ---------- */
