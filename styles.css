@@ -467,7 +467,7 @@ body {
         break-inside: avoid;
     }
 
-    .my-custom-border {
-      border: 2px double #F9F6EE; /* 4px thick, double line style, hex color */
-      padding: 12px;
+    .additional-info {
+      border: 2px double #F9F6EE;
+      padding: 0.75rem;
     }
